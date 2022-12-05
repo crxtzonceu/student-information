@@ -37,7 +37,7 @@ const renderStudentProfile = () => {
     <li><i class="fa-solid fa-school"></i>Current School: ICCT College</li>
     <li><i class="fa-solid fa-laptop-code"></i>Course: BSIT</li>
     <li><i class="fa-solid fa-magnifying-glass"></i>Section: OLCA211A031</li>
-    <li><i class="fa-solid fa-code"></i>Skills: Basic HTML, CSS, JS, Git, and Python</li>
+    <li><i class="fa-solid fa-code"></i>Skills: Basic HTML, CSS, JS, RegEx Git, and Python</li>
   </ul>
   `
 }
