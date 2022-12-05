@@ -153,6 +153,8 @@ const renderSocmed = () => {
     <li><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/johnmark.quijano.9" target="_blank">Facebook</a></li>
     <li><i class="fa-brands fa-github"></i><a href="https://github.com/crxtzonceu" target="_blank">Github</a></li>
     <li><i class="fa-brands fa-twitter"></i><a href="https://twitter.com/crxtzonceu" target="_blank">Twitter</a></li>
+    <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/john-mark-quijano-a1b08422b/" target="_blank">LinkedIn</a></li>
+    <li><i class="fa-brands fa-stack-overflow"></i><a href="https://stackoverflow.com/users/16022759/crxtzonceu" target="_blank">StackOverflow</a></li>
     <li><i class="fa-brands fa-discord"></i>Discord: crxtzonceu#7882</li>
   </ul>
   `
