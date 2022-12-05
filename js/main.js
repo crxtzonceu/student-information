@@ -15,33 +15,36 @@ document.addEventListener('click', function(e) {
     renderDislikes()
   } else if(e.target.id == "btn-kpop") {
     renderKpop()
-  } else if(e.target.id == "btn-socmed") {
+  } else if(e.target.id == "btn-soclinks") {
     renderSocmed()
   }
 })
 
 // function
 
-function renderStudentProfile() {
+const renderStudentProfile = () => {
   titleSection.innerHTML = `
+  <i class="fa-solid fa-user"></i>
   <h3>Student Profile</h3>
   `
 
   descSection.innerHTML = `
   <ul>
-    <li>Name: John Mark F. Quijano</li>
-    <li>Age: 19 years old</li>
-    <li>Gender: Male</li>
-    <li>Birthday: June 12, 2003</li>
-    <li>Current School: ICCT College</li>
-    <li>Course: BSIT</li>
-    <li>Section: OLCA211A031</li>
+    <li><i class="fa-regular fa-user"></i>Name: John Mark F. Quijano</li>
+    <li><i class="fa-solid fa-calendar-day"></i>Age: 19 years old</li>
+    <li><i class="fa-solid fa-person"></i>Gender: Male</li>
+    <li><i class="fa-solid fa-cake-candles"></i>Birthday: June 12, 2003</li>
+    <li><i class="fa-solid fa-school"></i>Current School: ICCT College</li>
+    <li><i class="fa-solid fa-laptop-code"></i>Course: BSIT</li>
+    <li><i class="fa-solid fa-magnifying-glass"></i>Section: OLCA211A031</li>
+    <li><i class="fa-solid fa-code"></i>Skills: Basic HTML, CSS, JS, Git, and Python</li>
   </ul>
   `
 }
 
-function renderHobbies() {
+const renderHobbies = () => {
   titleSection.innerHTML = `
+  <i class="fa-solid fa-star"></i>
   <h3>Hobbies</h3>
   `
 
@@ -60,8 +63,9 @@ function renderHobbies() {
   `
 }
 
-function renderInterest() {
+const renderInterest = () => {
   titleSection.innerHTML = `
+  <i class="fa-solid fa-heart"></i>
   <h3>Interest</h3>
   `
 
@@ -79,7 +83,7 @@ function renderInterest() {
   `
 }
 
-function renderExp() {
+const renderExp = () => {
   titleSection.innerHTML = `
   <h3>Memorable Experience</h3>
   `
@@ -90,26 +94,29 @@ function renderExp() {
     <li>- When I got hypokalemia</li>
     <li>- I lost my first girl best friend</li>
     <li>- My Highschool Graduation</li>
+    <li>- Everytime I help other people</li>
   </ul>
   `
 }
 
-function renderDislikes() {
+const renderDislikes = () => {
   titleSection.innerHTML = `
+  <i class="fa-solid fa-thumbs-down"></i>
   <h3>Dislikes</h3>
   `
 
   descSection.innerHTML = `
     <ul>
-      <li>People using you</li>
+      <li>People taking advantage of you</li>
       <li>Boastful Person</li>
       <li>Social Interaction</li>
       <li>Staying with crowds</li>
+      <li>Noisy and Loud Places/Person</li>
     </ul>
   `
 }
 
-function renderKpop() {
+const renderKpop = () => {
   titleSection.innerHTML = `
   <h3>Kpop/Kbands that i like</h3>
   `
@@ -120,11 +127,13 @@ function renderKpop() {
     <li>Fromis9</li>
     <li>Aespa</li>
     <li>Loona</li>
+    <li>Itzy</li>
   </ul>
   <ul>
     <li>Lucy</li>
     <li>Day6</li>
     <li>Wave to Earth</li>
+    <li>Hoppipolla</li>
     <li>The Poles</li>
     <li>The Rose</li>
   </ul>
@@ -133,16 +142,18 @@ function renderKpop() {
   descSection.style.cssText = "justify-content: space-around;"
 }
 
-function renderSocmed() {
+const renderSocmed = () => {
   titleSection.innerHTML = `
+  <i class="fa-solid fa-list"></i>
   <h3>Social Links</h3>
   `
 
   descSection.innerHTML = `
   <ul>
-    <li><a href="https://www.facebook.com/johnmark.quijano.9" target="_blank">Facebook</a></li>
-    <li><a href="https://github.com/crxtzonceu" target="_blank">Github</a></li>
-    <li><a href="https://twitter.com/crxtzonceu" target="_blank">Twitter</a></li>
+    <li><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/johnmark.quijano.9" target="_blank">Facebook</a></li>
+    <li><i class="fa-brands fa-github"></i><a href="https://github.com/crxtzonceu" target="_blank">Github</a></li>
+    <li><i class="fa-brands fa-twitter"></i><a href="https://twitter.com/crxtzonceu" target="_blank">Twitter</a></li>
+    <li><i class="fa-brands fa-discord"></i>Discord: crxtzonceu#7882</li>
   </ul>
   `
 }

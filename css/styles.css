@@ -31,7 +31,6 @@ body {
 
 }
 
-
 .header div {
   /* center */
   display: flex;
@@ -59,9 +58,7 @@ div .grow {
 }
 
 .grow button:hover {
-  background: #414f64;
   background: #55F991;
-  color: #A78BFA;
   color: #674cb9;
   transform: scale(1.01);
   transition: ease;
@@ -70,7 +67,6 @@ div .grow {
   border: 5px solid black;
   border-left-color: white;
   border-right-color: white;
-
 }
 
 /* Main Section */
@@ -125,6 +121,10 @@ div .grow {
 
 .main-desc ul li a {
   color: white;
+}
+
+i {
+  margin-right: 10px;
 }
 
 /* Button Nav Section */
