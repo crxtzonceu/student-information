@@ -135,7 +135,7 @@ function renderKpop() {
 
 function renderSocmed() {
   titleSection.innerHTML = `
-  <h3>Social Media</h3>
+  <h3>Social Links</h3>
   `
 
   descSection.innerHTML = `
